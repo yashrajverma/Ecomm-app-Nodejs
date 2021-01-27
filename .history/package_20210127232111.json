@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-ecomm-app",
+  "version": "1.0.0",
+  "description": "Ecommerce Application using nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrajverma/Ecomm-app-Nodejs.git"
+  },
+  "author": "Yashraj Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashrajverma/Ecomm-app-Nodejs/issues"
+  },
+  "homepage": "https://github.com/yashrajverma/Ecomm-app-Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "mongoose": "^5.11.13",
+    "nodemon": "^2.0.7"
+  }
+}
