@@ -4,7 +4,8 @@
     "description": "Ecommerce Application using nodejs",
     "main": "server.js",
     "scripts": {
-        "test": "mocha test/*.js --exit"
+        "test": "echo \"Error: no test specified\" && exit 1"
+        "lint:fix": "eslint --fix ./*.js"
     },
     "repository": {
         "type": "git",
@@ -18,11 +19,8 @@
     "homepage": "https://github.com/yashrajverma/Ecomm-app-Nodejs#readme",
     "dependencies": {
         "body-parser": "^1.19.0",
-        "chai": "^4.2.0",
-        "chai-http": "^4.3.0",
         "express": "^4.17.1",
         "git": "^0.1.5",
-        "mocha": "^8.2.1",
         "mongoose": "^5.11.13",
         "nodemon": "^2.0.7"
     },

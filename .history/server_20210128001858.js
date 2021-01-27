@@ -9,5 +9,3 @@ app.get('/', (req, res) => {
 app.listen(_PORT,
     console.log("Server is running on PORT:" + _PORT)
 );
-
-module.exports = app
