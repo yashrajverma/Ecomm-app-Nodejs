@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousell {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
